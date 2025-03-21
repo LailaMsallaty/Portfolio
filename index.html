@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special project</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" >
+    <link rel="stylesheet" href="fonts/fontawesome.css">
+    <link rel="stylesheet" href="fonts/all.css">
+  
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" >
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" >
-   
+    
 </head>
 <body>
 
@@ -28,7 +31,7 @@
                         <li><a href="#" data-section=".skills"> Skills</a></li>
                         <li><a href="#" data-section=".my-services">Features</a></li>
                         <li><a href="#" data-section=".work">My Work</a></li>
-                        <li><a href="#" data-section=".testimonials">testimontials</a></li>
+                       <!-- <li><a href="#" data-section=".testimonials">testimontials</a></li>-->
                                
                     </ul>
                     <button class="toggle-menu">
@@ -43,8 +46,8 @@
            
 
             <div class="info">
-                <h2>Hi, I'm <span class="laila" style="font-size: 54px;">Laila </span>. Welcome To My Portfolio</h2>
-                <p>Freelancer</p>
+                <h2>Hi, I'm <span class="laila" style="font-size: 54px;">Laila </span> Welcome To My Portfolio</h2>
+                <p>Software Developer</p>
                 <button><a href="#" data-section=".contact">Contact Me</a></li></button>
             </div>
         </div>
@@ -67,7 +70,7 @@
         <div class="info">
             <h2>About Me</h2>
 
-            <p>Greetings ! I am Laila msallaty A fullStack Web Developer with two years experience. I passionate about building excellent software that improves the lives of those around me .I spend my time in front of a computer screen, coding, debugging, or discussing coding practices and methods. My job like building a house but without paying anything for the building materials. You can build a mansion for free . I find that what consistently happens when I sit down to code is that I almost fall into a flow of concentration, and this is why I love it.</p>
+            <p>Greetings ! I am Laila msallaty, a software engineer, I have honed my skills in web development over the past three years, working on various projects that primarily utilize PHP with the Laravel framework. Additionally, I have spent the last three years focusing on API integration using the Delphi language. Beyond programming, I enjoy staying up-to-date with industry trends by reading blogs and following tutorials. This brief introduction provides a glimpse into who I am.</p>
 
         </div>
         <div class="image">
@@ -86,7 +89,14 @@
             </div>
             <div class="skill-box">
 
-                <div class="skill-name">HTML</div>
+                <div class="skill-name">PHP</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+
+                <div class="skill-name">LARAVEL</div>
                 <div class="skill-progress">
                     <span data-progress="95%"></span>
                 </div>
@@ -104,28 +114,22 @@
                 <div class="skill-progress">
                     <span data-progress="80%"></span>
                 </div>
-            </div>
+            </div> 
             <div class="skill-box">
 
                 <div class="skill-name">JQUERY</div>
                 <div class="skill-progress">
-                    <span data-progress="80%"></span>
+                    <span data-progress="75%"></span>
                 </div>
             </div>
             <div class="skill-box">
 
-                <div class="skill-name">PHP</div>
-                <div class="skill-progress">
-                    <span data-progress="85%"></span>
-                </div>
-            </div>
-            <div class="skill-box">
-
-                <div class="skill-name">LARAVEL</div>
+                <div class="skill-name">REACT.JS</div>
                 <div class="skill-progress">
                     <span data-progress="75%"></span>
                 </div>
             </div>
+          
             <div class="skill-box">
 
                 <div class="skill-name">MYSQL</div>
@@ -140,14 +144,24 @@
                     <span data-progress="90%"></span>
                 </div>
             </div>
-            <div class="skill-box">
-
-                <div class="skill-name">VueJs</div>
+           <div class="skill-box">
+                <div class="skill-name">REST API</div>
                 <div class="skill-progress">
-                    <span data-progress="60%"></span>
+                    <span data-progress="90%"></span>
                 </div>
             </div>
-           
+            <div class="skill-box">
+                <div class="skill-name">API INTEGRATION</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">DESKTOP DEVELOPMENT</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -157,24 +171,34 @@
 <section class="my-services">
     <div class="container">
         <div class="heading">
-            <h2>Our Features</h2>
+            <h2>Features</h2>
         </div>
-        <div class="item">
+        <!-- <div class="item">
                 <img src="images/design.png" alt="">
                 <h4>Good Web Design</h4>
                 <p>The different areas of web design include web graphic design, interface design, authoring , including standardised code and proprietary software, user experience design, and search engine optimization.</p>           
-        </div>
+        </div>-->
 
         <div class="item">
             <img src="images/calendar.png" alt="">
-            <h4>Time Management</h4>
-            <p>Managing stakeholder expectations is the most involved aspect of project management and carries the greatest cost for blunders.it is in this sense involves not only the amount of time needed per item .</p>           
+            <h4>Problem Solving</h4>
+            <p>Requires a systematic approach that involves defining the problem, gathering information, generating possible solutions, evaluating alternatives, and implementing the best solution.</p>           
         </div>
 
         <div class="item">
             <img src="images/time-management.png" alt="">
-            <h4>Project Management</h4>
-            <p>Application of processes, methods, skills, knowledge and experience to achieve specificproject objectives according to the project acceptance criteria within agreed parameters.</p>           
+            <h4>Time Management</h4>
+            <p>Involves setting goals, defining tasks, allocating resources, and monitoring progress to ensure that the project is completed on time, within budget, and to the satisfaction of stakeholders. </p>           
+        </div>
+         <div class="item">
+            <img src="images/team.png" alt="">
+            <h4>Teamwork</h4>
+            <p>I have strong teamwork skills, communicating and cooperating with colleagues to ensure successful outcomes. </p>           
+        </div>
+          <div class="item">
+            <img src="images/workflow.png" alt="">
+            <h4>Testing</h4>
+            <p>I have strong software testing skills, ensuring quality and functionality through careful analysis and troubleshooting. </p>           
         </div>
           
       
@@ -190,26 +214,35 @@
 <section class="work">
  <div class="container">
     <div class="heading">
-        <h2>My Latest Work</h2>
+        <h2>My Latest Work In Web Development And Api Integration</h2>
     </div>
 
-    <div class="gallery">
-        <img src="images/latest Work/_C__xampp_htdocs_Portfolio_index.html(Laptop with HiDPI screen).png" alt="image-one">
-        <img src="images/latest Work/localhost_8080_MyProject_index.php(Laptop with HiDPI screen).png" alt="image-two">
-        <img src="images/latest Work/localhost_8080_eCommerce_admin_Dashboard.php(Laptop with HiDPI screen).png" alt="image-three">
-        <img src="images/latest Work/localhost_8080_eCommerce_(Laptop with HiDPI screen).png" alt="image-four">
-        <img src="images/latest Work/127.0.0.1_8000_todos(Laptop with HiDPI screen).png" alt="image-four">
-        <img src="images/latest Work/127.0.0.1_8000_dashboard(Laptop with HiDPI screen).png" alt="image-four">
+    <div class="gallery">   
+        <img src="images/latest Work/emenu2.png" alt="E-Menu Web Application">
+        <img src="images/latest Work/emenu1.png" alt="E-Menu Dashboard">
+        <img src="images/latest Work/HR.png" alt="Human Resource Management System"> 
+        <img src="images/latest Work/Chat.png" alt="Chat Website">
+        <img src="images/latest Work/ecommerce.png" alt="E-Commerce Web Application">
+        <img src="images/latest Work/ecommmerce_dashboard.png" alt="E-Commerce Dashboard">
+        <img src="images/latest Work/beautySalon.png" alt="Beauty Salon Website">
+        <img src="images/latest Work/Screenshot (90).png" alt="School Web Application">
+        <img src="images/latest Work/Screenshot (204).png" alt="Phenix Medical Appointments Application">
+        <img src="images/latest Work/Screenshot (215).png" alt="Woocommerce Integration App">
+        <img src="images/latest Work/Screenshot (213).png" alt="Neoleap Integration App">
+        <img src="images/latest Work/Screenshot (208).png" alt="Rasd Integration App">
+        <img src="images/latest Work/Screenshot (217).png" alt="Wasfaty Integration App">
+        <img src="images/latest Work/Screenshot (216).png" alt="MyFatoorah Integration App">
+        <img src="images/latest Work/Screenshot (214).png" alt="Salla Integration App">
+     
     </div>
     <div class="clearfix"></div>
-   </div>
-
+ </div>
 </section>
 
 <!--End Our Work -->
-<!-- Start testimontials-->
+ <!-- Start testimontials-->
 
-    <div class="testimonials">
+ <!--    <div class="testimonials">
         <div class="container">
                 <h2>Testimonials</h2>
                 <div class="ts-box">
@@ -242,7 +275,7 @@
         
        
      </div>
-    
+    -->
 <!-- End testimontials-->
 
 <!-- Start contact us -->
@@ -252,7 +285,7 @@
             <div class="heading">
                 <h2>Contact Me</h2>
             </div>
-            <form action="">
+            <!-- <form action="">
                 <div class="left">
                     <input type="text" placeholder="Your Name" name="username">
                     <input type="text" placeholder="Your Phone" name="phone">
@@ -263,8 +296,15 @@
                     <textarea name="message" placeholder="Your Message"></textarea>
                     <input type="submit" value="Send">
                 </div>
-            </form>
-
+            </form> -->
+            <div class="info">
+                 <div class="left">
+                    Email : lailamsallaty607@gmail.com
+                </div>
+                <div class="right">
+                    WhatsApp : +963938550894
+                </div>
+            </div>
          </div>
      </div>
 <!-- End contact us -->
@@ -284,9 +324,9 @@
         <div class="bullet" data-section=".work">
             <div class="tooltip">My Work</div>
         </div>
-        <div class="bullet" data-section=".testimonials">
+        <!-- <div class="bullet" data-section=".testimonials">
             <div class="tooltip">Testimonials</div>
-        </div>
+        </div> -->
         <div class="bullet" data-section=".contact">
             <div class="tooltip">Contact Me</div>
         </div>
@@ -295,12 +335,14 @@
 
 <!--Start Footer -->
 
- <div class="footer">Created By Laila Msallaty
+ <div class="footer">
      <div class="list">
         <ul>
-            <li><a href="https://www.facebook.com/Laila.msallaty.549"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://instagram.com/laila_msallaty"><i class="fab fa-instagram-square"></i></a></li>
-            <li><a href="https://t.me/LailaMsallaty"><i class="fab fa-telegram"></i></a></li>
+            <li><a href="https://www.facebook.com/Laila.msallaty.549"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://instagram.com/laila_msallaty"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://t.me/LailaMsallaty"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/laila-msallaty"><i class="fa-brands fa-linkedin"></i></a></li>
+
       
         </ul>
     </div>
@@ -311,4 +353,6 @@
 
 </body>
 <script src="js/master.js"></script>
+ <script src="fonts/all.js"></script>
+ <script  src="fonts/fontawesome.js"></script>
 </html>
