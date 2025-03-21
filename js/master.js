@@ -199,7 +199,7 @@ let landingNav = document.querySelector(".landing-nav");
 
 // get array of images 
 
-let imgsArray = ["computer-1245714.jpg","photo_2020-06-13_19-58-17.jpg","notebook-1284085.jpg","wood-3240764.jpg"];
+let imgsArray = ["computer-1245714.jpg","photo_2020-06-13_19-58-17.jpg","wood-3240764.jpg"];
 
 
 // random number
